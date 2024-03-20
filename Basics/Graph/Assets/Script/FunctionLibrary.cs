@@ -3,41 +3,32 @@ using UnityEngine;
 using static UnityEngine.Mathf;
 public static class FunctionLibrary {
 
-  public delegate float Function(float position, float time);
-  public static Function GetFunction(int index) {
-    switch (index) {
-      case (1):
-        return MultiWave;
+  public delegate float Function(float positionX, float positionZ, float time);
 
-      case (2):
-        return MorphWave;
-
-      case (3):
-        return Ripple;
-
-      default:
-        return Wave;
-    }
+  public enum FunctionName { Wave, MultiWave, MorphWave, Ripple };
+  static Function[] functions = { Wave, MultiWave, MorphWave, Ripple };
+  public static Function GetFunction(FunctionName index) {
+    return functions[(int)index];
   }
-  public static float Wave(float position, float time) {
-    return Sin(PI * (position + time));
+  public static float Wave(float positionX, float positionZ, float time) {
+    return Sin(PI * (positionX + time));
   }
 
-  public static float MultiWave(float position, float time) {
-    float y = Sin(PI * (position + time));
-    y += 0.5f * Sin(2 * PI * (position + time));
+  public static float MultiWave(float positionX, float positionZ, float time) {
+    float y = Sin(PI * (positionX + time));
+    y += 0.5f * Sin(2 * PI * (positionX + time));
     return y * (2f / 3f);
   }
 
-  public static float MorphWave(float position, float time) {
+  public static float MorphWave(float positionX, float positionZ, float time) {
     float morphOffset = 0.5f;
-    float y = Sin(PI * (position + morphOffset * time));
-    y += 0.5f * Sin(2f * PI * (position + time));
+    float y = Sin(PI * (positionX + morphOffset * time));
+    y += 0.5f * Sin(2f * PI * (positionX + time));
     return y * (2f / 3f);
   }
 
-  public static float Ripple(float position, float time) {
-    float distance = Abs(position);
+  public static float Ripple(float positionX, float positionZ, float time) {
+    float distance = Abs(positionX);
     float y = Sin(PI * (4 * distance - time));
     return y / (1f + 10f * distance);
   }
