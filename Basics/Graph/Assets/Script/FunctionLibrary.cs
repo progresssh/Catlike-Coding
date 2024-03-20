@@ -11,12 +11,12 @@ public static class FunctionLibrary {
     return functions[(int)index];
   }
   public static float Wave(float positionX, float positionZ, float time) {
-    return Sin(PI * (positionX + time));
+    return Sin(PI * (positionX + positionZ + time));
   }
 
   public static float MultiWave(float positionX, float positionZ, float time) {
     float y = Sin(PI * (positionX + time));
-    y += 0.5f * Sin(2 * PI * (positionX + time));
+    y += 0.5f * Sin(2 * PI * (positionZ + time));
     return y * (2f / 3f);
   }
 
