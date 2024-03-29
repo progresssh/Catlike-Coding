@@ -1,0 +1,1165 @@
+2024-03-23 00:53:55.733 +01:00 [DBG] Finding descriptors for initialize
+2024-03-23 00:53:56.076 +01:00 [DBG] Queueing "Serial":initialize:0 request for processing
+2024-03-23 00:53:56.089 +01:00 [DBG] Starting: Processing request initialize 0
+2024-03-23 00:53:56.092 +01:00 [DBG] Starting: Routing Request (0) initialize
+2024-03-23 00:53:56.096 +01:00 [VRB] Converting params for Request (0) initialize to OmniSharp.Extensions.LanguageServer.Protocol.Models.InternalInitializeParams
+2024-03-23 00:53:56.096 +01:00 [VRB] Converting params for Notification initialize to OmniSharp.Extensions.LanguageServer.Protocol.Models.InternalInitializeParams
+2024-03-23 00:53:56.337 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.InitializeResult
+2024-03-23 00:53:56.342 +01:00 [DBG] Finished: Routing Request (0) initialize in 249ms
+2024-03-23 00:53:56.342 +01:00 [DBG] Finished: Processing request initialize 0 in 252ms
+2024-03-23 00:53:56.380 +01:00 [DBG] Finding descriptors for initialized
+2024-03-23 00:53:56.381 +01:00 [DBG] Queueing "Serial":initialized request for processing
+2024-03-23 00:53:56.384 +01:00 [DBG] Starting: Processing notification initialized
+2024-03-23 00:53:56.385 +01:00 [DBG] Starting: Routing Notification initialized
+2024-03-23 00:53:56.385 +01:00 [VRB] Converting params for Notification initialized to OmniSharp.Extensions.LanguageServer.Protocol.Models.InitializedParams
+2024-03-23 00:53:56.458 +01:00 [DBG] Finished: Routing Notification initialized in 72ms
+2024-03-23 00:53:56.458 +01:00 [DBG] Finished: Processing notification initialized in 74ms
+2024-03-23 00:53:56.462 +01:00 [DBG] Finding descriptors for textDocument/didOpen
+2024-03-23 00:53:56.466 +01:00 [VRB] Created attribute UnityShader::file:///e:/Progress/Gamedev/Catlike%20Coding/Basics/Graph/Assets/Shaders/Point%20Surface.shader
+2024-03-23 00:53:56.467 +01:00 [VRB] Looking for handler for descriptors textDocument/didOpen
+2024-03-23 00:53:56.467 +01:00 [VRB] Checking handler textDocument/didOpen:ShaderLS.Handlers.TextDocumentSyncHandler
+2024-03-23 00:53:56.467 +01:00 [VRB] Registration options OmniSharp.Extensions.LanguageServer.Protocol.Models.TextDocumentOpenRegistrationOptions
+2024-03-23 00:53:56.467 +01:00 [VRB] Document Selector [**/*.shader], [**/*.cginc], [**/*.glslinc], [**/*.compute], [**/*.cg], [**/*.hlsl]
+2024-03-23 00:53:56.469 +01:00 [VRB] Handler Selected: ShaderLS.Handlers.TextDocumentSyncHandler  via [**/*.shader], [**/*.cginc], [**/*.glslinc], [**/*.compute], [**/*.cg], [**/*.hlsl] (targeting OmniSharp.Extensions.JsonRpc.IJsonRpcNotificationHandler`1[[OmniSharp.Extensions.LanguageServer.Protocol.Models.DidOpenTextDocumentParams, OmniSharp.Extensions.LanguageProtocol, Version=0.19.0.0, Culture=neutral, PublicKeyToken=6d868dff454e6022]])
+2024-03-23 00:53:56.469 +01:00 [DBG] Queueing "Serial":textDocument/didOpen request for processing
+2024-03-23 00:53:56.469 +01:00 [DBG] Starting: Processing notification textDocument/didOpen
+2024-03-23 00:53:56.469 +01:00 [DBG] Starting: Routing Notification textDocument/didOpen
+2024-03-23 00:53:56.469 +01:00 [VRB] Converting params for Notification textDocument/didOpen to OmniSharp.Extensions.LanguageServer.Protocol.Models.DidOpenTextDocumentParams
+2024-03-23 00:53:56.559 +01:00 [WRN] didOpen: /e:/Progress/Gamedev/Catlike Coding/Basics/Graph/Assets/Shaders/Point Surface.shader
+2024-03-23 00:53:56.566 +01:00 [DBG] Finished: Routing Notification textDocument/didOpen in 97ms
+2024-03-23 00:53:56.567 +01:00 [DBG] Finished: Processing notification textDocument/didOpen in 97ms
+2024-03-23 00:53:56.876 +01:00 [DBG] Finding descriptors for textDocument/hover
+2024-03-23 00:53:56.880 +01:00 [VRB] Found attributes 1, ["shaderlab:file:file:///e:/Progress/Gamedev/Catlike%20Coding/Basics/Graph/Assets/Shaders/Point%20Surface.shader"]
+2024-03-23 00:53:56.881 +01:00 [VRB] Looking for handler for descriptors textDocument/hover
+2024-03-23 00:53:56.882 +01:00 [VRB] Checking handler textDocument/hover:ShaderLS.Handlers.HoverHandler
+2024-03-23 00:53:56.882 +01:00 [VRB] Registration options OmniSharp.Extensions.LanguageServer.Protocol.Models.HoverRegistrationOptions
+2024-03-23 00:53:56.882 +01:00 [VRB] Document Selector [**/*.shader], [**/*.cginc], [**/*.glslinc], [**/*.compute], [**/*.cg], [**/*.hlsl]
+2024-03-23 00:53:56.882 +01:00 [VRB] Handler Selected: ShaderLS.Handlers.HoverHandler  via [**/*.shader], [**/*.cginc], [**/*.glslinc], [**/*.compute], [**/*.cg], [**/*.hlsl] (targeting OmniSharp.Extensions.JsonRpc.IJsonRpcRequestHandler`2[[OmniSharp.Extensions.LanguageServer.Protocol.Models.HoverParams, OmniSharp.Extensions.LanguageProtocol, Version=0.19.0.0, Culture=neutral, PublicKeyToken=6d868dff454e6022],[OmniSharp.Extensions.LanguageServer.Protocol.Models.Hover, OmniSharp.Extensions.LanguageProtocol, Version=0.19.0.0, Culture=neutral, PublicKeyToken=6d868dff454e6022]])
+2024-03-23 00:53:56.882 +01:00 [DBG] Swapping from "Serial" to "Parallel"
+2024-03-23 00:53:56.883 +01:00 [DBG] Completing existing request process type "Serial"
+2024-03-23 00:53:56.885 +01:00 [DBG] Queueing "Parallel":textDocument/hover:1 request for processing
+2024-03-23 00:53:56.885 +01:00 [DBG] Starting: Processing request textDocument/hover 1
+2024-03-23 00:53:56.885 +01:00 [DBG] Starting: Routing Request (1) textDocument/hover
+2024-03-23 00:53:56.885 +01:00 [VRB] Converting params for Request (1) textDocument/hover to OmniSharp.Extensions.LanguageServer.Protocol.Models.HoverParams
+2024-03-23 00:53:56.885 +01:00 [VRB] Converting params for Notification textDocument/hover to OmniSharp.Extensions.LanguageServer.Protocol.Models.HoverParams
+2024-03-23 00:53:56.889 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.Hover
+2024-03-23 00:53:56.890 +01:00 [DBG] Finished: Routing Request (1) textDocument/hover in 4ms
+2024-03-23 00:53:56.890 +01:00 [DBG] Finished: Processing request textDocument/hover 1 in 5ms
+2024-03-23 00:53:57.125 +01:00 [DBG] Finding descriptors for textDocument/hover
+2024-03-23 00:53:57.126 +01:00 [VRB] Found attributes 1, ["shaderlab:file:file:///e:/Progress/Gamedev/Catlike%20Coding/Basics/Graph/Assets/Shaders/Point%20Surface.shader"]
+2024-03-23 00:53:57.126 +01:00 [VRB] Looking for handler for descriptors textDocument/hover
+2024-03-23 00:53:57.126 +01:00 [VRB] Checking handler textDocument/hover:ShaderLS.Handlers.HoverHandler
+2024-03-23 00:53:57.126 +01:00 [VRB] Registration options OmniSharp.Extensions.LanguageServer.Protocol.Models.HoverRegistrationOptions
+2024-03-23 00:53:57.126 +01:00 [VRB] Document Selector [**/*.shader], [**/*.cginc], [**/*.glslinc], [**/*.compute], [**/*.cg], [**/*.hlsl]
+2024-03-23 00:53:57.126 +01:00 [VRB] Handler Selected: ShaderLS.Handlers.HoverHandler  via [**/*.shader], [**/*.cginc], [**/*.glslinc], [**/*.compute], [**/*.cg], [**/*.hlsl] (targeting OmniSharp.Extensions.JsonRpc.IJsonRpcRequestHandler`2[[OmniSharp.Extensions.LanguageServer.Protocol.Models.HoverParams, OmniSharp.Extensions.LanguageProtocol, Version=0.19.0.0, Culture=neutral, PublicKeyToken=6d868dff454e6022],[OmniSharp.Extensions.LanguageServer.Protocol.Models.Hover, OmniSharp.Extensions.LanguageProtocol, Version=0.19.0.0, Culture=neutral, PublicKeyToken=6d868dff454e6022]])
+2024-03-23 00:53:57.126 +01:00 [DBG] Queueing "Parallel":textDocument/hover:2 request for processing
+2024-03-23 00:53:57.126 +01:00 [DBG] Starting: Processing request textDocument/hover 2
+2024-03-23 00:53:57.126 +01:00 [DBG] Starting: Routing Request (2) textDocument/hover
+2024-03-23 00:53:57.126 +01:00 [VRB] Converting params for Request (2) textDocument/hover to OmniSharp.Extensions.LanguageServer.Protocol.Models.HoverParams
+2024-03-23 00:53:57.126 +01:00 [VRB] Converting params for Notification textDocument/hover to OmniSharp.Extensions.LanguageServer.Protocol.Models.HoverParams
+2024-03-23 00:53:57.129 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.Hover
+2024-03-23 00:53:57.129 +01:00 [DBG] Finished: Routing Request (2) textDocument/hover in 3ms
+2024-03-23 00:53:57.129 +01:00 [DBG] Finished: Processing request textDocument/hover 2 in 3ms
+2024-03-23 00:54:06.659 +01:00 [DBG] Finding descriptors for textDocument/hover
+2024-03-23 00:54:06.660 +01:00 [VRB] Found attributes 1, ["shaderlab:file:file:///e:/Progress/Gamedev/Catlike%20Coding/Basics/Graph/Assets/Shaders/Point%20Surface.shader"]
+2024-03-23 00:54:06.660 +01:00 [VRB] Looking for handler for descriptors textDocument/hover
+2024-03-23 00:54:06.660 +01:00 [VRB] Checking handler textDocument/hover:ShaderLS.Handlers.HoverHandler
+2024-03-23 00:54:06.660 +01:00 [VRB] Registration options OmniSharp.Extensions.LanguageServer.Protocol.Models.HoverRegistrationOptions
+2024-03-23 00:54:06.660 +01:00 [VRB] Document Selector [**/*.shader], [**/*.cginc], [**/*.glslinc], [**/*.compute], [**/*.cg], [**/*.hlsl]
+2024-03-23 00:54:06.660 +01:00 [VRB] Handler Selected: ShaderLS.Handlers.HoverHandler  via [**/*.shader], [**/*.cginc], [**/*.glslinc], [**/*.compute], [**/*.cg], [**/*.hlsl] (targeting OmniSharp.Extensions.JsonRpc.IJsonRpcRequestHandler`2[[OmniSharp.Extensions.LanguageServer.Protocol.Models.HoverParams, OmniSharp.Extensions.LanguageProtocol, Version=0.19.0.0, Culture=neutral, PublicKeyToken=6d868dff454e6022],[OmniSharp.Extensions.LanguageServer.Protocol.Models.Hover, OmniSharp.Extensions.LanguageProtocol, Version=0.19.0.0, Culture=neutral, PublicKeyToken=6d868dff454e6022]])
+2024-03-23 00:54:06.660 +01:00 [DBG] Queueing "Parallel":textDocument/hover:3 request for processing
+2024-03-23 00:54:06.660 +01:00 [DBG] Starting: Processing request textDocument/hover 3
+2024-03-23 00:54:06.660 +01:00 [DBG] Starting: Routing Request (3) textDocument/hover
+2024-03-23 00:54:06.660 +01:00 [VRB] Converting params for Request (3) textDocument/hover to OmniSharp.Extensions.LanguageServer.Protocol.Models.HoverParams
+2024-03-23 00:54:06.660 +01:00 [VRB] Converting params for Notification textDocument/hover to OmniSharp.Extensions.LanguageServer.Protocol.Models.HoverParams
+2024-03-23 00:54:06.660 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.Hover
+2024-03-23 00:54:06.660 +01:00 [DBG] Finished: Routing Request (3) textDocument/hover in 0ms
+2024-03-23 00:54:06.660 +01:00 [DBG] Finished: Processing request textDocument/hover 3 in 0ms
+2024-03-23 00:54:07.520 +01:00 [DBG] Finding descriptors for textDocument/hover
+2024-03-23 00:54:07.520 +01:00 [VRB] Found attributes 1, ["shaderlab:file:file:///e:/Progress/Gamedev/Catlike%20Coding/Basics/Graph/Assets/Shaders/Point%20Surface.shader"]
+2024-03-23 00:54:07.520 +01:00 [VRB] Looking for handler for descriptors textDocument/hover
+2024-03-23 00:54:07.520 +01:00 [VRB] Checking handler textDocument/hover:ShaderLS.Handlers.HoverHandler
+2024-03-23 00:54:07.520 +01:00 [VRB] Registration options OmniSharp.Extensions.LanguageServer.Protocol.Models.HoverRegistrationOptions
+2024-03-23 00:54:07.521 +01:00 [VRB] Document Selector [**/*.shader], [**/*.cginc], [**/*.glslinc], [**/*.compute], [**/*.cg], [**/*.hlsl]
+2024-03-23 00:54:07.521 +01:00 [VRB] Handler Selected: ShaderLS.Handlers.HoverHandler  via [**/*.shader], [**/*.cginc], [**/*.glslinc], [**/*.compute], [**/*.cg], [**/*.hlsl] (targeting OmniSharp.Extensions.JsonRpc.IJsonRpcRequestHandler`2[[OmniSharp.Extensions.LanguageServer.Protocol.Models.HoverParams, OmniSharp.Extensions.LanguageProtocol, Version=0.19.0.0, Culture=neutral, PublicKeyToken=6d868dff454e6022],[OmniSharp.Extensions.LanguageServer.Protocol.Models.Hover, OmniSharp.Extensions.LanguageProtocol, Version=0.19.0.0, Culture=neutral, PublicKeyToken=6d868dff454e6022]])
+2024-03-23 00:54:07.521 +01:00 [DBG] Queueing "Parallel":textDocument/hover:4 request for processing
+2024-03-23 00:54:07.521 +01:00 [DBG] Starting: Processing request textDocument/hover 4
+2024-03-23 00:54:07.521 +01:00 [DBG] Starting: Routing Request (4) textDocument/hover
+2024-03-23 00:54:07.521 +01:00 [VRB] Converting params for Request (4) textDocument/hover to OmniSharp.Extensions.LanguageServer.Protocol.Models.HoverParams
+2024-03-23 00:54:07.521 +01:00 [VRB] Converting params for Notification textDocument/hover to OmniSharp.Extensions.LanguageServer.Protocol.Models.HoverParams
+2024-03-23 00:54:07.521 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.Hover
+2024-03-23 00:54:07.521 +01:00 [DBG] Finished: Routing Request (4) textDocument/hover in 0ms
+2024-03-23 00:54:07.521 +01:00 [DBG] Finished: Processing request textDocument/hover 4 in 0ms
+2024-03-23 00:54:07.661 +01:00 [DBG] Finding descriptors for textDocument/didChange
+2024-03-23 00:54:07.667 +01:00 [VRB] Found attributes 1, ["shaderlab:file:file:///e:/Progress/Gamedev/Catlike%20Coding/Basics/Graph/Assets/Shaders/Point%20Surface.shader"]
+2024-03-23 00:54:07.667 +01:00 [VRB] Looking for handler for descriptors textDocument/didChange
+2024-03-23 00:54:07.667 +01:00 [VRB] Checking handler textDocument/didChange:ShaderLS.Handlers.TextDocumentSyncHandler
+2024-03-23 00:54:07.667 +01:00 [VRB] Registration options OmniSharp.Extensions.LanguageServer.Protocol.Models.TextDocumentChangeRegistrationOptions
+2024-03-23 00:54:07.667 +01:00 [VRB] Document Selector [**/*.shader], [**/*.cginc], [**/*.glslinc], [**/*.compute], [**/*.cg], [**/*.hlsl]
+2024-03-23 00:54:07.667 +01:00 [VRB] Handler Selected: ShaderLS.Handlers.TextDocumentSyncHandler  via [**/*.shader], [**/*.cginc], [**/*.glslinc], [**/*.compute], [**/*.cg], [**/*.hlsl] (targeting OmniSharp.Extensions.JsonRpc.IJsonRpcNotificationHandler`1[[OmniSharp.Extensions.LanguageServer.Protocol.Models.DidChangeTextDocumentParams, OmniSharp.Extensions.LanguageProtocol, Version=0.19.0.0, Culture=neutral, PublicKeyToken=6d868dff454e6022]])
+2024-03-23 00:54:07.667 +01:00 [DBG] Swapping from "Parallel" to "Serial"
+2024-03-23 00:54:07.668 +01:00 [DBG] Cancelling any outstanding requests (switch from parallel to serial)
+2024-03-23 00:54:07.668 +01:00 [DBG] Completing existing request process type "Parallel"
+2024-03-23 00:54:07.668 +01:00 [DBG] Queueing "Serial":textDocument/didChange request for processing
+2024-03-23 00:54:07.668 +01:00 [DBG] Starting: Processing notification textDocument/didChange
+2024-03-23 00:54:07.668 +01:00 [DBG] Starting: Routing Notification textDocument/didChange
+2024-03-23 00:54:07.668 +01:00 [VRB] Converting params for Notification textDocument/didChange to OmniSharp.Extensions.LanguageServer.Protocol.Models.DidChangeTextDocumentParams
+2024-03-23 00:54:07.673 +01:00 [DBG] Finished: Routing Notification textDocument/didChange in 4ms
+2024-03-23 00:54:07.673 +01:00 [DBG] Finished: Processing notification textDocument/didChange in 5ms
+2024-03-23 00:54:07.804 +01:00 [DBG] Finding descriptors for textDocument/completion
+2024-03-23 00:54:07.806 +01:00 [VRB] Found attributes 1, ["shaderlab:file:file:///e:/Progress/Gamedev/Catlike%20Coding/Basics/Graph/Assets/Shaders/Point%20Surface.shader"]
+2024-03-23 00:54:07.807 +01:00 [VRB] Looking for handler for descriptors textDocument/completion
+2024-03-23 00:54:07.807 +01:00 [VRB] Checking handler textDocument/completion:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:07.807 +01:00 [VRB] Registration options OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionRegistrationOptions
+2024-03-23 00:54:07.807 +01:00 [VRB] Document Selector [**/*.shader], [**/*.cginc], [**/*.glslinc], [**/*.compute], [**/*.cg], [**/*.hlsl]
+2024-03-23 00:54:07.807 +01:00 [VRB] Handler Selected: ShaderLS.Handlers.CompletionHandler a9fb8bae-aa83-4965-a7b3-e33a08826ed3 via [**/*.shader], [**/*.cginc], [**/*.glslinc], [**/*.compute], [**/*.cg], [**/*.hlsl] (targeting OmniSharp.Extensions.JsonRpc.IJsonRpcRequestHandler`2[[OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionParams, OmniSharp.Extensions.LanguageProtocol, Version=0.19.0.0, Culture=neutral, PublicKeyToken=6d868dff454e6022],[OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionList, OmniSharp.Extensions.LanguageProtocol, Version=0.19.0.0, Culture=neutral, PublicKeyToken=6d868dff454e6022]])
+2024-03-23 00:54:07.807 +01:00 [DBG] Swapping from "Serial" to "Parallel"
+2024-03-23 00:54:07.807 +01:00 [DBG] Completing existing request process type "Serial"
+2024-03-23 00:54:07.807 +01:00 [DBG] Queueing "Parallel":textDocument/completion:5 request for processing
+2024-03-23 00:54:07.807 +01:00 [DBG] Starting: Processing request textDocument/completion 5
+2024-03-23 00:54:07.807 +01:00 [DBG] Starting: Routing Request (5) textDocument/completion
+2024-03-23 00:54:07.807 +01:00 [VRB] Converting params for Request (5) textDocument/completion to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionParams
+2024-03-23 00:54:07.807 +01:00 [VRB] Converting params for Notification textDocument/completion to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionParams
+2024-03-23 00:54:07.813 +01:00 [VRB] Updating Resolve items with wrapped data for textDocument/completion:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:07.814 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionList
+2024-03-23 00:54:07.815 +01:00 [DBG] Finished: Routing Request (5) textDocument/completion in 8ms
+2024-03-23 00:54:07.815 +01:00 [DBG] Finished: Processing request textDocument/completion 5 in 8ms
+2024-03-23 00:54:07.859 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:07.863 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:07.863 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:6 request for processing
+2024-03-23 00:54:07.864 +01:00 [DBG] Starting: Processing request completionItem/resolve 6
+2024-03-23 00:54:07.864 +01:00 [DBG] Starting: Routing Request (6) completionItem/resolve
+2024-03-23 00:54:07.864 +01:00 [VRB] Converting params for Request (6) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:07.864 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:07.865 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:07.866 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:07.866 +01:00 [DBG] Finished: Routing Request (6) completionItem/resolve in 2ms
+2024-03-23 00:54:07.866 +01:00 [DBG] Finished: Processing request completionItem/resolve 6 in 2ms
+2024-03-23 00:54:08.556 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:08.556 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:08.556 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:7 request for processing
+2024-03-23 00:54:08.556 +01:00 [DBG] Starting: Processing request completionItem/resolve 7
+2024-03-23 00:54:08.556 +01:00 [DBG] Starting: Routing Request (7) completionItem/resolve
+2024-03-23 00:54:08.556 +01:00 [VRB] Converting params for Request (7) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:08.556 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:08.558 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:08.559 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:08.559 +01:00 [DBG] Finished: Routing Request (7) completionItem/resolve in 2ms
+2024-03-23 00:54:08.559 +01:00 [DBG] Finished: Processing request completionItem/resolve 7 in 2ms
+2024-03-23 00:54:09.059 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:09.059 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.059 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:8 request for processing
+2024-03-23 00:54:09.059 +01:00 [DBG] Starting: Processing request completionItem/resolve 8
+2024-03-23 00:54:09.059 +01:00 [DBG] Starting: Routing Request (8) completionItem/resolve
+2024-03-23 00:54:09.059 +01:00 [VRB] Converting params for Request (8) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.059 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.059 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.059 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.059 +01:00 [DBG] Finished: Routing Request (8) completionItem/resolve in 0ms
+2024-03-23 00:54:09.059 +01:00 [DBG] Finished: Processing request completionItem/resolve 8 in 0ms
+2024-03-23 00:54:09.090 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:09.090 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.090 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:9 request for processing
+2024-03-23 00:54:09.090 +01:00 [DBG] Starting: Processing request completionItem/resolve 9
+2024-03-23 00:54:09.090 +01:00 [DBG] Starting: Routing Request (9) completionItem/resolve
+2024-03-23 00:54:09.091 +01:00 [VRB] Converting params for Request (9) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.091 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.091 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.091 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.091 +01:00 [DBG] Finished: Routing Request (9) completionItem/resolve in 0ms
+2024-03-23 00:54:09.091 +01:00 [DBG] Finished: Processing request completionItem/resolve 9 in 0ms
+2024-03-23 00:54:09.137 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:09.138 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.138 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:10 request for processing
+2024-03-23 00:54:09.138 +01:00 [DBG] Starting: Processing request completionItem/resolve 10
+2024-03-23 00:54:09.138 +01:00 [DBG] Starting: Routing Request (10) completionItem/resolve
+2024-03-23 00:54:09.138 +01:00 [VRB] Converting params for Request (10) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.138 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.138 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.138 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.138 +01:00 [DBG] Finished: Routing Request (10) completionItem/resolve in 0ms
+2024-03-23 00:54:09.138 +01:00 [DBG] Finished: Processing request completionItem/resolve 10 in 0ms
+2024-03-23 00:54:09.170 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:09.170 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.170 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:11 request for processing
+2024-03-23 00:54:09.170 +01:00 [DBG] Starting: Processing request completionItem/resolve 11
+2024-03-23 00:54:09.170 +01:00 [DBG] Starting: Routing Request (11) completionItem/resolve
+2024-03-23 00:54:09.170 +01:00 [VRB] Converting params for Request (11) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.170 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.170 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.170 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.170 +01:00 [DBG] Finished: Routing Request (11) completionItem/resolve in 0ms
+2024-03-23 00:54:09.170 +01:00 [DBG] Finished: Processing request completionItem/resolve 11 in 0ms
+2024-03-23 00:54:09.206 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:09.207 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.207 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:12 request for processing
+2024-03-23 00:54:09.207 +01:00 [DBG] Starting: Processing request completionItem/resolve 12
+2024-03-23 00:54:09.207 +01:00 [DBG] Starting: Routing Request (12) completionItem/resolve
+2024-03-23 00:54:09.207 +01:00 [VRB] Converting params for Request (12) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.207 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.207 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.207 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.207 +01:00 [DBG] Finished: Routing Request (12) completionItem/resolve in 0ms
+2024-03-23 00:54:09.207 +01:00 [DBG] Finished: Processing request completionItem/resolve 12 in 0ms
+2024-03-23 00:54:09.230 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:09.230 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.230 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:13 request for processing
+2024-03-23 00:54:09.231 +01:00 [DBG] Starting: Processing request completionItem/resolve 13
+2024-03-23 00:54:09.231 +01:00 [DBG] Starting: Routing Request (13) completionItem/resolve
+2024-03-23 00:54:09.231 +01:00 [VRB] Converting params for Request (13) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.231 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.231 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.231 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.231 +01:00 [DBG] Finished: Routing Request (13) completionItem/resolve in 0ms
+2024-03-23 00:54:09.232 +01:00 [DBG] Finished: Processing request completionItem/resolve 13 in 0ms
+2024-03-23 00:54:09.260 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:09.261 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.261 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:14 request for processing
+2024-03-23 00:54:09.261 +01:00 [DBG] Starting: Processing request completionItem/resolve 14
+2024-03-23 00:54:09.261 +01:00 [DBG] Starting: Routing Request (14) completionItem/resolve
+2024-03-23 00:54:09.261 +01:00 [VRB] Converting params for Request (14) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.261 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.261 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.261 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.262 +01:00 [DBG] Finished: Routing Request (14) completionItem/resolve in 0ms
+2024-03-23 00:54:09.262 +01:00 [DBG] Finished: Processing request completionItem/resolve 14 in 0ms
+2024-03-23 00:54:09.290 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:09.290 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.291 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:15 request for processing
+2024-03-23 00:54:09.291 +01:00 [DBG] Starting: Processing request completionItem/resolve 15
+2024-03-23 00:54:09.291 +01:00 [DBG] Starting: Routing Request (15) completionItem/resolve
+2024-03-23 00:54:09.291 +01:00 [VRB] Converting params for Request (15) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.291 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.291 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.291 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.291 +01:00 [DBG] Finished: Routing Request (15) completionItem/resolve in 0ms
+2024-03-23 00:54:09.291 +01:00 [DBG] Finished: Processing request completionItem/resolve 15 in 0ms
+2024-03-23 00:54:09.320 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:09.320 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.321 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:16 request for processing
+2024-03-23 00:54:09.321 +01:00 [DBG] Starting: Processing request completionItem/resolve 16
+2024-03-23 00:54:09.321 +01:00 [DBG] Starting: Routing Request (16) completionItem/resolve
+2024-03-23 00:54:09.321 +01:00 [VRB] Converting params for Request (16) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.321 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.321 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.321 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.321 +01:00 [DBG] Finished: Routing Request (16) completionItem/resolve in 0ms
+2024-03-23 00:54:09.321 +01:00 [DBG] Finished: Processing request completionItem/resolve 16 in 0ms
+2024-03-23 00:54:09.368 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:09.368 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.368 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:17 request for processing
+2024-03-23 00:54:09.369 +01:00 [DBG] Starting: Processing request completionItem/resolve 17
+2024-03-23 00:54:09.369 +01:00 [DBG] Starting: Routing Request (17) completionItem/resolve
+2024-03-23 00:54:09.369 +01:00 [VRB] Converting params for Request (17) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.369 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.369 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.369 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.369 +01:00 [DBG] Finished: Routing Request (17) completionItem/resolve in 0ms
+2024-03-23 00:54:09.369 +01:00 [DBG] Finished: Processing request completionItem/resolve 17 in 0ms
+2024-03-23 00:54:09.399 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:09.399 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.399 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:18 request for processing
+2024-03-23 00:54:09.399 +01:00 [DBG] Starting: Processing request completionItem/resolve 18
+2024-03-23 00:54:09.399 +01:00 [DBG] Starting: Routing Request (18) completionItem/resolve
+2024-03-23 00:54:09.399 +01:00 [VRB] Converting params for Request (18) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.399 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.399 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.399 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.399 +01:00 [DBG] Finished: Routing Request (18) completionItem/resolve in 0ms
+2024-03-23 00:54:09.399 +01:00 [DBG] Finished: Processing request completionItem/resolve 18 in 0ms
+2024-03-23 00:54:09.431 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:09.431 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.431 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:19 request for processing
+2024-03-23 00:54:09.431 +01:00 [DBG] Starting: Processing request completionItem/resolve 19
+2024-03-23 00:54:09.431 +01:00 [DBG] Starting: Routing Request (19) completionItem/resolve
+2024-03-23 00:54:09.431 +01:00 [VRB] Converting params for Request (19) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.431 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.431 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.431 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.431 +01:00 [DBG] Finished: Routing Request (19) completionItem/resolve in 0ms
+2024-03-23 00:54:09.431 +01:00 [DBG] Finished: Processing request completionItem/resolve 19 in 0ms
+2024-03-23 00:54:09.461 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:09.461 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.461 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:20 request for processing
+2024-03-23 00:54:09.461 +01:00 [DBG] Starting: Processing request completionItem/resolve 20
+2024-03-23 00:54:09.461 +01:00 [DBG] Starting: Routing Request (20) completionItem/resolve
+2024-03-23 00:54:09.461 +01:00 [VRB] Converting params for Request (20) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.461 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.461 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.462 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.462 +01:00 [DBG] Finished: Routing Request (20) completionItem/resolve in 0ms
+2024-03-23 00:54:09.462 +01:00 [DBG] Finished: Processing request completionItem/resolve 20 in 0ms
+2024-03-23 00:54:09.492 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:09.492 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.492 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:21 request for processing
+2024-03-23 00:54:09.492 +01:00 [DBG] Starting: Processing request completionItem/resolve 21
+2024-03-23 00:54:09.492 +01:00 [DBG] Starting: Routing Request (21) completionItem/resolve
+2024-03-23 00:54:09.492 +01:00 [VRB] Converting params for Request (21) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.492 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.492 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.493 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.493 +01:00 [DBG] Finished: Routing Request (21) completionItem/resolve in 0ms
+2024-03-23 00:54:09.493 +01:00 [DBG] Finished: Processing request completionItem/resolve 21 in 0ms
+2024-03-23 00:54:09.522 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:09.523 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.523 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:22 request for processing
+2024-03-23 00:54:09.523 +01:00 [DBG] Starting: Processing request completionItem/resolve 22
+2024-03-23 00:54:09.523 +01:00 [DBG] Starting: Routing Request (22) completionItem/resolve
+2024-03-23 00:54:09.523 +01:00 [VRB] Converting params for Request (22) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.523 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.523 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.523 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.523 +01:00 [DBG] Finished: Routing Request (22) completionItem/resolve in 0ms
+2024-03-23 00:54:09.523 +01:00 [DBG] Finished: Processing request completionItem/resolve 22 in 0ms
+2024-03-23 00:54:09.554 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:09.554 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.555 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:23 request for processing
+2024-03-23 00:54:09.555 +01:00 [DBG] Starting: Processing request completionItem/resolve 23
+2024-03-23 00:54:09.555 +01:00 [DBG] Starting: Routing Request (23) completionItem/resolve
+2024-03-23 00:54:09.555 +01:00 [VRB] Converting params for Request (23) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.555 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.555 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.555 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.555 +01:00 [DBG] Finished: Routing Request (23) completionItem/resolve in 0ms
+2024-03-23 00:54:09.555 +01:00 [DBG] Finished: Processing request completionItem/resolve 23 in 0ms
+2024-03-23 00:54:09.586 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:09.586 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.586 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:24 request for processing
+2024-03-23 00:54:09.586 +01:00 [DBG] Starting: Processing request completionItem/resolve 24
+2024-03-23 00:54:09.587 +01:00 [DBG] Starting: Routing Request (24) completionItem/resolve
+2024-03-23 00:54:09.587 +01:00 [VRB] Converting params for Request (24) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.587 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.587 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.587 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.587 +01:00 [DBG] Finished: Routing Request (24) completionItem/resolve in 0ms
+2024-03-23 00:54:09.587 +01:00 [DBG] Finished: Processing request completionItem/resolve 24 in 0ms
+2024-03-23 00:54:09.618 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:09.618 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.618 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:25 request for processing
+2024-03-23 00:54:09.618 +01:00 [DBG] Starting: Processing request completionItem/resolve 25
+2024-03-23 00:54:09.618 +01:00 [DBG] Starting: Routing Request (25) completionItem/resolve
+2024-03-23 00:54:09.618 +01:00 [VRB] Converting params for Request (25) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.618 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.618 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.618 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.618 +01:00 [DBG] Finished: Routing Request (25) completionItem/resolve in 0ms
+2024-03-23 00:54:09.618 +01:00 [DBG] Finished: Processing request completionItem/resolve 25 in 0ms
+2024-03-23 00:54:09.667 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:09.667 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.667 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:26 request for processing
+2024-03-23 00:54:09.667 +01:00 [DBG] Starting: Processing request completionItem/resolve 26
+2024-03-23 00:54:09.668 +01:00 [DBG] Starting: Routing Request (26) completionItem/resolve
+2024-03-23 00:54:09.668 +01:00 [VRB] Converting params for Request (26) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.668 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.668 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.668 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.668 +01:00 [DBG] Finished: Routing Request (26) completionItem/resolve in 0ms
+2024-03-23 00:54:09.668 +01:00 [DBG] Finished: Processing request completionItem/resolve 26 in 0ms
+2024-03-23 00:54:09.695 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:09.695 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.695 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:27 request for processing
+2024-03-23 00:54:09.695 +01:00 [DBG] Starting: Processing request completionItem/resolve 27
+2024-03-23 00:54:09.695 +01:00 [DBG] Starting: Routing Request (27) completionItem/resolve
+2024-03-23 00:54:09.695 +01:00 [VRB] Converting params for Request (27) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.695 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.696 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.696 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.696 +01:00 [DBG] Finished: Routing Request (27) completionItem/resolve in 0ms
+2024-03-23 00:54:09.696 +01:00 [DBG] Finished: Processing request completionItem/resolve 27 in 0ms
+2024-03-23 00:54:09.726 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:09.726 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.727 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:28 request for processing
+2024-03-23 00:54:09.727 +01:00 [DBG] Starting: Processing request completionItem/resolve 28
+2024-03-23 00:54:09.727 +01:00 [DBG] Starting: Routing Request (28) completionItem/resolve
+2024-03-23 00:54:09.727 +01:00 [VRB] Converting params for Request (28) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.727 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.727 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.727 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.727 +01:00 [DBG] Finished: Routing Request (28) completionItem/resolve in 0ms
+2024-03-23 00:54:09.727 +01:00 [DBG] Finished: Processing request completionItem/resolve 28 in 0ms
+2024-03-23 00:54:09.758 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:09.758 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.758 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:29 request for processing
+2024-03-23 00:54:09.758 +01:00 [DBG] Starting: Processing request completionItem/resolve 29
+2024-03-23 00:54:09.758 +01:00 [DBG] Starting: Routing Request (29) completionItem/resolve
+2024-03-23 00:54:09.758 +01:00 [VRB] Converting params for Request (29) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.758 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.759 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.759 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.759 +01:00 [DBG] Finished: Routing Request (29) completionItem/resolve in 0ms
+2024-03-23 00:54:09.759 +01:00 [DBG] Finished: Processing request completionItem/resolve 29 in 0ms
+2024-03-23 00:54:09.788 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:09.788 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.788 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:30 request for processing
+2024-03-23 00:54:09.788 +01:00 [DBG] Starting: Processing request completionItem/resolve 30
+2024-03-23 00:54:09.788 +01:00 [DBG] Starting: Routing Request (30) completionItem/resolve
+2024-03-23 00:54:09.788 +01:00 [VRB] Converting params for Request (30) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.789 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.789 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.789 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.789 +01:00 [DBG] Finished: Routing Request (30) completionItem/resolve in 0ms
+2024-03-23 00:54:09.789 +01:00 [DBG] Finished: Processing request completionItem/resolve 30 in 0ms
+2024-03-23 00:54:09.820 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:09.820 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.820 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:31 request for processing
+2024-03-23 00:54:09.820 +01:00 [DBG] Starting: Processing request completionItem/resolve 31
+2024-03-23 00:54:09.820 +01:00 [DBG] Starting: Routing Request (31) completionItem/resolve
+2024-03-23 00:54:09.820 +01:00 [VRB] Converting params for Request (31) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.820 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.821 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:09.821 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:09.821 +01:00 [DBG] Finished: Routing Request (31) completionItem/resolve in 0ms
+2024-03-23 00:54:09.821 +01:00 [DBG] Finished: Processing request completionItem/resolve 31 in 0ms
+2024-03-23 00:54:13.227 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:13.227 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.227 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:32 request for processing
+2024-03-23 00:54:13.227 +01:00 [DBG] Starting: Processing request completionItem/resolve 32
+2024-03-23 00:54:13.227 +01:00 [DBG] Starting: Routing Request (32) completionItem/resolve
+2024-03-23 00:54:13.227 +01:00 [VRB] Converting params for Request (32) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.227 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.227 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.227 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.227 +01:00 [DBG] Finished: Routing Request (32) completionItem/resolve in 0ms
+2024-03-23 00:54:13.227 +01:00 [DBG] Finished: Processing request completionItem/resolve 32 in 0ms
+2024-03-23 00:54:13.258 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:13.259 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.259 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:33 request for processing
+2024-03-23 00:54:13.259 +01:00 [DBG] Starting: Processing request completionItem/resolve 33
+2024-03-23 00:54:13.259 +01:00 [DBG] Starting: Routing Request (33) completionItem/resolve
+2024-03-23 00:54:13.259 +01:00 [VRB] Converting params for Request (33) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.259 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.259 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.259 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.259 +01:00 [DBG] Finished: Routing Request (33) completionItem/resolve in 0ms
+2024-03-23 00:54:13.259 +01:00 [DBG] Finished: Processing request completionItem/resolve 33 in 0ms
+2024-03-23 00:54:13.290 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:13.290 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.290 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:34 request for processing
+2024-03-23 00:54:13.290 +01:00 [DBG] Starting: Processing request completionItem/resolve 34
+2024-03-23 00:54:13.290 +01:00 [DBG] Starting: Routing Request (34) completionItem/resolve
+2024-03-23 00:54:13.290 +01:00 [VRB] Converting params for Request (34) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.290 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.291 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.291 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.291 +01:00 [DBG] Finished: Routing Request (34) completionItem/resolve in 0ms
+2024-03-23 00:54:13.291 +01:00 [DBG] Finished: Processing request completionItem/resolve 34 in 0ms
+2024-03-23 00:54:13.321 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:13.321 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.321 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:35 request for processing
+2024-03-23 00:54:13.321 +01:00 [DBG] Starting: Processing request completionItem/resolve 35
+2024-03-23 00:54:13.321 +01:00 [DBG] Starting: Routing Request (35) completionItem/resolve
+2024-03-23 00:54:13.321 +01:00 [VRB] Converting params for Request (35) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.321 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.321 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.321 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.321 +01:00 [DBG] Finished: Routing Request (35) completionItem/resolve in 0ms
+2024-03-23 00:54:13.321 +01:00 [DBG] Finished: Processing request completionItem/resolve 35 in 0ms
+2024-03-23 00:54:13.353 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:13.353 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.354 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:36 request for processing
+2024-03-23 00:54:13.354 +01:00 [DBG] Starting: Processing request completionItem/resolve 36
+2024-03-23 00:54:13.354 +01:00 [DBG] Starting: Routing Request (36) completionItem/resolve
+2024-03-23 00:54:13.354 +01:00 [VRB] Converting params for Request (36) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.354 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.354 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.354 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.354 +01:00 [DBG] Finished: Routing Request (36) completionItem/resolve in 0ms
+2024-03-23 00:54:13.354 +01:00 [DBG] Finished: Processing request completionItem/resolve 36 in 0ms
+2024-03-23 00:54:13.385 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:13.385 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.385 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:37 request for processing
+2024-03-23 00:54:13.385 +01:00 [DBG] Starting: Processing request completionItem/resolve 37
+2024-03-23 00:54:13.385 +01:00 [DBG] Starting: Routing Request (37) completionItem/resolve
+2024-03-23 00:54:13.385 +01:00 [VRB] Converting params for Request (37) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.385 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.385 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.385 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.385 +01:00 [DBG] Finished: Routing Request (37) completionItem/resolve in 0ms
+2024-03-23 00:54:13.385 +01:00 [DBG] Finished: Processing request completionItem/resolve 37 in 0ms
+2024-03-23 00:54:13.416 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:13.416 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.416 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:38 request for processing
+2024-03-23 00:54:13.416 +01:00 [DBG] Starting: Processing request completionItem/resolve 38
+2024-03-23 00:54:13.416 +01:00 [DBG] Starting: Routing Request (38) completionItem/resolve
+2024-03-23 00:54:13.416 +01:00 [VRB] Converting params for Request (38) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.416 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.417 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.417 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.417 +01:00 [DBG] Finished: Routing Request (38) completionItem/resolve in 0ms
+2024-03-23 00:54:13.417 +01:00 [DBG] Finished: Processing request completionItem/resolve 38 in 0ms
+2024-03-23 00:54:13.447 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:13.447 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.447 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:39 request for processing
+2024-03-23 00:54:13.447 +01:00 [DBG] Starting: Processing request completionItem/resolve 39
+2024-03-23 00:54:13.447 +01:00 [DBG] Starting: Routing Request (39) completionItem/resolve
+2024-03-23 00:54:13.447 +01:00 [VRB] Converting params for Request (39) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.447 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.448 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.448 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.448 +01:00 [DBG] Finished: Routing Request (39) completionItem/resolve in 0ms
+2024-03-23 00:54:13.448 +01:00 [DBG] Finished: Processing request completionItem/resolve 39 in 0ms
+2024-03-23 00:54:13.493 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:13.494 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.494 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:40 request for processing
+2024-03-23 00:54:13.494 +01:00 [DBG] Starting: Processing request completionItem/resolve 40
+2024-03-23 00:54:13.494 +01:00 [DBG] Starting: Routing Request (40) completionItem/resolve
+2024-03-23 00:54:13.494 +01:00 [VRB] Converting params for Request (40) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.494 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.494 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.494 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.494 +01:00 [DBG] Finished: Routing Request (40) completionItem/resolve in 0ms
+2024-03-23 00:54:13.494 +01:00 [DBG] Finished: Processing request completionItem/resolve 40 in 0ms
+2024-03-23 00:54:13.523 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:13.523 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.523 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:41 request for processing
+2024-03-23 00:54:13.523 +01:00 [DBG] Starting: Processing request completionItem/resolve 41
+2024-03-23 00:54:13.524 +01:00 [DBG] Starting: Routing Request (41) completionItem/resolve
+2024-03-23 00:54:13.524 +01:00 [VRB] Converting params for Request (41) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.524 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.524 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.524 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.524 +01:00 [DBG] Finished: Routing Request (41) completionItem/resolve in 0ms
+2024-03-23 00:54:13.524 +01:00 [DBG] Finished: Processing request completionItem/resolve 41 in 0ms
+2024-03-23 00:54:13.555 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:13.555 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.555 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:42 request for processing
+2024-03-23 00:54:13.555 +01:00 [DBG] Starting: Processing request completionItem/resolve 42
+2024-03-23 00:54:13.555 +01:00 [DBG] Starting: Routing Request (42) completionItem/resolve
+2024-03-23 00:54:13.555 +01:00 [VRB] Converting params for Request (42) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.555 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.556 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.556 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.556 +01:00 [DBG] Finished: Routing Request (42) completionItem/resolve in 0ms
+2024-03-23 00:54:13.556 +01:00 [DBG] Finished: Processing request completionItem/resolve 42 in 0ms
+2024-03-23 00:54:13.586 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:13.587 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.587 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:43 request for processing
+2024-03-23 00:54:13.587 +01:00 [DBG] Starting: Processing request completionItem/resolve 43
+2024-03-23 00:54:13.587 +01:00 [DBG] Starting: Routing Request (43) completionItem/resolve
+2024-03-23 00:54:13.587 +01:00 [VRB] Converting params for Request (43) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.587 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.587 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.587 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.587 +01:00 [DBG] Finished: Routing Request (43) completionItem/resolve in 0ms
+2024-03-23 00:54:13.587 +01:00 [DBG] Finished: Processing request completionItem/resolve 43 in 0ms
+2024-03-23 00:54:13.616 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:13.617 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.617 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:44 request for processing
+2024-03-23 00:54:13.617 +01:00 [DBG] Starting: Processing request completionItem/resolve 44
+2024-03-23 00:54:13.617 +01:00 [DBG] Starting: Routing Request (44) completionItem/resolve
+2024-03-23 00:54:13.617 +01:00 [VRB] Converting params for Request (44) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.617 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.617 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.617 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.617 +01:00 [DBG] Finished: Routing Request (44) completionItem/resolve in 0ms
+2024-03-23 00:54:13.617 +01:00 [DBG] Finished: Processing request completionItem/resolve 44 in 0ms
+2024-03-23 00:54:13.647 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:13.647 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.647 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:45 request for processing
+2024-03-23 00:54:13.647 +01:00 [DBG] Starting: Processing request completionItem/resolve 45
+2024-03-23 00:54:13.647 +01:00 [DBG] Starting: Routing Request (45) completionItem/resolve
+2024-03-23 00:54:13.647 +01:00 [VRB] Converting params for Request (45) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.647 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.648 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.648 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.648 +01:00 [DBG] Finished: Routing Request (45) completionItem/resolve in 0ms
+2024-03-23 00:54:13.648 +01:00 [DBG] Finished: Processing request completionItem/resolve 45 in 0ms
+2024-03-23 00:54:13.678 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:13.678 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.678 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:46 request for processing
+2024-03-23 00:54:13.678 +01:00 [DBG] Starting: Processing request completionItem/resolve 46
+2024-03-23 00:54:13.678 +01:00 [DBG] Starting: Routing Request (46) completionItem/resolve
+2024-03-23 00:54:13.678 +01:00 [VRB] Converting params for Request (46) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.678 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.683 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.683 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.683 +01:00 [DBG] Finished: Routing Request (46) completionItem/resolve in 5ms
+2024-03-23 00:54:13.684 +01:00 [DBG] Finished: Processing request completionItem/resolve 46 in 5ms
+2024-03-23 00:54:13.726 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:13.726 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.726 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:47 request for processing
+2024-03-23 00:54:13.726 +01:00 [DBG] Starting: Processing request completionItem/resolve 47
+2024-03-23 00:54:13.726 +01:00 [DBG] Starting: Routing Request (47) completionItem/resolve
+2024-03-23 00:54:13.726 +01:00 [VRB] Converting params for Request (47) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.726 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.726 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.726 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.726 +01:00 [DBG] Finished: Routing Request (47) completionItem/resolve in 0ms
+2024-03-23 00:54:13.726 +01:00 [DBG] Finished: Processing request completionItem/resolve 47 in 0ms
+2024-03-23 00:54:13.756 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:13.757 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.757 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:48 request for processing
+2024-03-23 00:54:13.757 +01:00 [DBG] Starting: Processing request completionItem/resolve 48
+2024-03-23 00:54:13.757 +01:00 [DBG] Starting: Routing Request (48) completionItem/resolve
+2024-03-23 00:54:13.757 +01:00 [VRB] Converting params for Request (48) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.757 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.757 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.757 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.757 +01:00 [DBG] Finished: Routing Request (48) completionItem/resolve in 0ms
+2024-03-23 00:54:13.757 +01:00 [DBG] Finished: Processing request completionItem/resolve 48 in 0ms
+2024-03-23 00:54:13.787 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:13.788 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.788 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:49 request for processing
+2024-03-23 00:54:13.788 +01:00 [DBG] Starting: Processing request completionItem/resolve 49
+2024-03-23 00:54:13.788 +01:00 [DBG] Starting: Routing Request (49) completionItem/resolve
+2024-03-23 00:54:13.788 +01:00 [VRB] Converting params for Request (49) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.788 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.788 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.788 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.788 +01:00 [DBG] Finished: Routing Request (49) completionItem/resolve in 0ms
+2024-03-23 00:54:13.788 +01:00 [DBG] Finished: Processing request completionItem/resolve 49 in 0ms
+2024-03-23 00:54:13.819 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:13.819 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.819 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:50 request for processing
+2024-03-23 00:54:13.819 +01:00 [DBG] Starting: Processing request completionItem/resolve 50
+2024-03-23 00:54:13.819 +01:00 [DBG] Starting: Routing Request (50) completionItem/resolve
+2024-03-23 00:54:13.819 +01:00 [VRB] Converting params for Request (50) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.819 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.819 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.819 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.819 +01:00 [DBG] Finished: Routing Request (50) completionItem/resolve in 0ms
+2024-03-23 00:54:13.819 +01:00 [DBG] Finished: Processing request completionItem/resolve 50 in 0ms
+2024-03-23 00:54:13.851 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:13.851 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.851 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:51 request for processing
+2024-03-23 00:54:13.851 +01:00 [DBG] Starting: Processing request completionItem/resolve 51
+2024-03-23 00:54:13.851 +01:00 [DBG] Starting: Routing Request (51) completionItem/resolve
+2024-03-23 00:54:13.851 +01:00 [VRB] Converting params for Request (51) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.851 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.851 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.851 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.851 +01:00 [DBG] Finished: Routing Request (51) completionItem/resolve in 0ms
+2024-03-23 00:54:13.851 +01:00 [DBG] Finished: Processing request completionItem/resolve 51 in 0ms
+2024-03-23 00:54:13.883 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:13.883 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.883 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:52 request for processing
+2024-03-23 00:54:13.883 +01:00 [DBG] Starting: Processing request completionItem/resolve 52
+2024-03-23 00:54:13.883 +01:00 [DBG] Starting: Routing Request (52) completionItem/resolve
+2024-03-23 00:54:13.883 +01:00 [VRB] Converting params for Request (52) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.883 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.884 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.884 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.884 +01:00 [DBG] Finished: Routing Request (52) completionItem/resolve in 0ms
+2024-03-23 00:54:13.884 +01:00 [DBG] Finished: Processing request completionItem/resolve 52 in 0ms
+2024-03-23 00:54:13.914 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:13.914 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.914 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:53 request for processing
+2024-03-23 00:54:13.914 +01:00 [DBG] Starting: Processing request completionItem/resolve 53
+2024-03-23 00:54:13.914 +01:00 [DBG] Starting: Routing Request (53) completionItem/resolve
+2024-03-23 00:54:13.914 +01:00 [VRB] Converting params for Request (53) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.914 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.915 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.915 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.915 +01:00 [DBG] Finished: Routing Request (53) completionItem/resolve in 0ms
+2024-03-23 00:54:13.915 +01:00 [DBG] Finished: Processing request completionItem/resolve 53 in 0ms
+2024-03-23 00:54:13.945 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:13.946 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.946 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:54 request for processing
+2024-03-23 00:54:13.946 +01:00 [DBG] Starting: Processing request completionItem/resolve 54
+2024-03-23 00:54:13.946 +01:00 [DBG] Starting: Routing Request (54) completionItem/resolve
+2024-03-23 00:54:13.946 +01:00 [VRB] Converting params for Request (54) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.946 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.946 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.946 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.946 +01:00 [DBG] Finished: Routing Request (54) completionItem/resolve in 0ms
+2024-03-23 00:54:13.946 +01:00 [DBG] Finished: Processing request completionItem/resolve 54 in 0ms
+2024-03-23 00:54:13.976 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:13.976 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.976 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:55 request for processing
+2024-03-23 00:54:13.976 +01:00 [DBG] Starting: Processing request completionItem/resolve 55
+2024-03-23 00:54:13.976 +01:00 [DBG] Starting: Routing Request (55) completionItem/resolve
+2024-03-23 00:54:13.976 +01:00 [VRB] Converting params for Request (55) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.976 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.976 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:13.976 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:13.976 +01:00 [DBG] Finished: Routing Request (55) completionItem/resolve in 0ms
+2024-03-23 00:54:13.976 +01:00 [DBG] Finished: Processing request completionItem/resolve 55 in 0ms
+2024-03-23 00:54:14.022 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:14.022 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.022 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:56 request for processing
+2024-03-23 00:54:14.022 +01:00 [DBG] Starting: Processing request completionItem/resolve 56
+2024-03-23 00:54:14.023 +01:00 [DBG] Starting: Routing Request (56) completionItem/resolve
+2024-03-23 00:54:14.023 +01:00 [VRB] Converting params for Request (56) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.023 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.023 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.023 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.023 +01:00 [DBG] Finished: Routing Request (56) completionItem/resolve in 0ms
+2024-03-23 00:54:14.023 +01:00 [DBG] Finished: Processing request completionItem/resolve 56 in 0ms
+2024-03-23 00:54:14.053 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:14.053 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.053 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:57 request for processing
+2024-03-23 00:54:14.053 +01:00 [DBG] Starting: Processing request completionItem/resolve 57
+2024-03-23 00:54:14.053 +01:00 [DBG] Starting: Routing Request (57) completionItem/resolve
+2024-03-23 00:54:14.053 +01:00 [VRB] Converting params for Request (57) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.053 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.054 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.054 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.054 +01:00 [DBG] Finished: Routing Request (57) completionItem/resolve in 0ms
+2024-03-23 00:54:14.054 +01:00 [DBG] Finished: Processing request completionItem/resolve 57 in 0ms
+2024-03-23 00:54:14.085 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:14.085 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.085 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:58 request for processing
+2024-03-23 00:54:14.085 +01:00 [DBG] Starting: Processing request completionItem/resolve 58
+2024-03-23 00:54:14.085 +01:00 [DBG] Starting: Routing Request (58) completionItem/resolve
+2024-03-23 00:54:14.085 +01:00 [VRB] Converting params for Request (58) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.085 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.085 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.085 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.085 +01:00 [DBG] Finished: Routing Request (58) completionItem/resolve in 0ms
+2024-03-23 00:54:14.085 +01:00 [DBG] Finished: Processing request completionItem/resolve 58 in 0ms
+2024-03-23 00:54:14.116 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:14.116 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.116 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:59 request for processing
+2024-03-23 00:54:14.116 +01:00 [DBG] Starting: Processing request completionItem/resolve 59
+2024-03-23 00:54:14.116 +01:00 [DBG] Starting: Routing Request (59) completionItem/resolve
+2024-03-23 00:54:14.116 +01:00 [VRB] Converting params for Request (59) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.116 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.116 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.116 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.116 +01:00 [DBG] Finished: Routing Request (59) completionItem/resolve in 0ms
+2024-03-23 00:54:14.116 +01:00 [DBG] Finished: Processing request completionItem/resolve 59 in 0ms
+2024-03-23 00:54:14.146 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:14.146 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.146 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:60 request for processing
+2024-03-23 00:54:14.146 +01:00 [DBG] Starting: Processing request completionItem/resolve 60
+2024-03-23 00:54:14.146 +01:00 [DBG] Starting: Routing Request (60) completionItem/resolve
+2024-03-23 00:54:14.146 +01:00 [VRB] Converting params for Request (60) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.146 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.146 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.146 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.146 +01:00 [DBG] Finished: Routing Request (60) completionItem/resolve in 0ms
+2024-03-23 00:54:14.146 +01:00 [DBG] Finished: Processing request completionItem/resolve 60 in 0ms
+2024-03-23 00:54:14.177 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:14.177 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.177 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:61 request for processing
+2024-03-23 00:54:14.177 +01:00 [DBG] Starting: Processing request completionItem/resolve 61
+2024-03-23 00:54:14.177 +01:00 [DBG] Starting: Routing Request (61) completionItem/resolve
+2024-03-23 00:54:14.177 +01:00 [VRB] Converting params for Request (61) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.177 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.177 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.177 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.177 +01:00 [DBG] Finished: Routing Request (61) completionItem/resolve in 0ms
+2024-03-23 00:54:14.177 +01:00 [DBG] Finished: Processing request completionItem/resolve 61 in 0ms
+2024-03-23 00:54:14.208 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:14.208 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.208 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:62 request for processing
+2024-03-23 00:54:14.208 +01:00 [DBG] Starting: Processing request completionItem/resolve 62
+2024-03-23 00:54:14.208 +01:00 [DBG] Starting: Routing Request (62) completionItem/resolve
+2024-03-23 00:54:14.208 +01:00 [VRB] Converting params for Request (62) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.208 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.208 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.208 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.208 +01:00 [DBG] Finished: Routing Request (62) completionItem/resolve in 0ms
+2024-03-23 00:54:14.208 +01:00 [DBG] Finished: Processing request completionItem/resolve 62 in 0ms
+2024-03-23 00:54:14.239 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:14.239 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.239 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:63 request for processing
+2024-03-23 00:54:14.239 +01:00 [DBG] Starting: Processing request completionItem/resolve 63
+2024-03-23 00:54:14.239 +01:00 [DBG] Starting: Routing Request (63) completionItem/resolve
+2024-03-23 00:54:14.239 +01:00 [VRB] Converting params for Request (63) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.239 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.240 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.240 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.240 +01:00 [DBG] Finished: Routing Request (63) completionItem/resolve in 0ms
+2024-03-23 00:54:14.240 +01:00 [DBG] Finished: Processing request completionItem/resolve 63 in 0ms
+2024-03-23 00:54:14.285 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:14.286 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.286 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:64 request for processing
+2024-03-23 00:54:14.286 +01:00 [DBG] Starting: Processing request completionItem/resolve 64
+2024-03-23 00:54:14.286 +01:00 [DBG] Starting: Routing Request (64) completionItem/resolve
+2024-03-23 00:54:14.286 +01:00 [VRB] Converting params for Request (64) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.286 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.286 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.286 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.286 +01:00 [DBG] Finished: Routing Request (64) completionItem/resolve in 0ms
+2024-03-23 00:54:14.286 +01:00 [DBG] Finished: Processing request completionItem/resolve 64 in 0ms
+2024-03-23 00:54:14.318 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:14.319 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.319 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:65 request for processing
+2024-03-23 00:54:14.319 +01:00 [DBG] Starting: Processing request completionItem/resolve 65
+2024-03-23 00:54:14.319 +01:00 [DBG] Starting: Routing Request (65) completionItem/resolve
+2024-03-23 00:54:14.319 +01:00 [VRB] Converting params for Request (65) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.319 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.319 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.319 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.319 +01:00 [DBG] Finished: Routing Request (65) completionItem/resolve in 0ms
+2024-03-23 00:54:14.319 +01:00 [DBG] Finished: Processing request completionItem/resolve 65 in 0ms
+2024-03-23 00:54:14.348 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:14.348 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.348 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:66 request for processing
+2024-03-23 00:54:14.348 +01:00 [DBG] Starting: Processing request completionItem/resolve 66
+2024-03-23 00:54:14.348 +01:00 [DBG] Starting: Routing Request (66) completionItem/resolve
+2024-03-23 00:54:14.348 +01:00 [VRB] Converting params for Request (66) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.348 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.348 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.348 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.348 +01:00 [DBG] Finished: Routing Request (66) completionItem/resolve in 0ms
+2024-03-23 00:54:14.349 +01:00 [DBG] Finished: Processing request completionItem/resolve 66 in 0ms
+2024-03-23 00:54:14.378 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:14.378 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.378 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:67 request for processing
+2024-03-23 00:54:14.378 +01:00 [DBG] Starting: Processing request completionItem/resolve 67
+2024-03-23 00:54:14.378 +01:00 [DBG] Starting: Routing Request (67) completionItem/resolve
+2024-03-23 00:54:14.378 +01:00 [VRB] Converting params for Request (67) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.378 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.378 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.378 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.378 +01:00 [DBG] Finished: Routing Request (67) completionItem/resolve in 0ms
+2024-03-23 00:54:14.378 +01:00 [DBG] Finished: Processing request completionItem/resolve 67 in 0ms
+2024-03-23 00:54:14.408 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:14.408 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.408 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:68 request for processing
+2024-03-23 00:54:14.408 +01:00 [DBG] Starting: Processing request completionItem/resolve 68
+2024-03-23 00:54:14.408 +01:00 [DBG] Starting: Routing Request (68) completionItem/resolve
+2024-03-23 00:54:14.408 +01:00 [VRB] Converting params for Request (68) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.408 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.409 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.409 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.409 +01:00 [DBG] Finished: Routing Request (68) completionItem/resolve in 0ms
+2024-03-23 00:54:14.409 +01:00 [DBG] Finished: Processing request completionItem/resolve 68 in 0ms
+2024-03-23 00:54:14.439 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:14.439 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.439 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:69 request for processing
+2024-03-23 00:54:14.439 +01:00 [DBG] Starting: Processing request completionItem/resolve 69
+2024-03-23 00:54:14.439 +01:00 [DBG] Starting: Routing Request (69) completionItem/resolve
+2024-03-23 00:54:14.439 +01:00 [VRB] Converting params for Request (69) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.439 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.440 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.440 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.440 +01:00 [DBG] Finished: Routing Request (69) completionItem/resolve in 0ms
+2024-03-23 00:54:14.440 +01:00 [DBG] Finished: Processing request completionItem/resolve 69 in 0ms
+2024-03-23 00:54:14.484 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:14.485 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.485 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:70 request for processing
+2024-03-23 00:54:14.485 +01:00 [DBG] Starting: Processing request completionItem/resolve 70
+2024-03-23 00:54:14.485 +01:00 [DBG] Starting: Routing Request (70) completionItem/resolve
+2024-03-23 00:54:14.485 +01:00 [VRB] Converting params for Request (70) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.485 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.485 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.485 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.485 +01:00 [DBG] Finished: Routing Request (70) completionItem/resolve in 0ms
+2024-03-23 00:54:14.485 +01:00 [DBG] Finished: Processing request completionItem/resolve 70 in 0ms
+2024-03-23 00:54:14.517 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:14.517 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.517 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:71 request for processing
+2024-03-23 00:54:14.517 +01:00 [DBG] Starting: Processing request completionItem/resolve 71
+2024-03-23 00:54:14.517 +01:00 [DBG] Starting: Routing Request (71) completionItem/resolve
+2024-03-23 00:54:14.517 +01:00 [VRB] Converting params for Request (71) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.517 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.517 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.517 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.517 +01:00 [DBG] Finished: Routing Request (71) completionItem/resolve in 0ms
+2024-03-23 00:54:14.517 +01:00 [DBG] Finished: Processing request completionItem/resolve 71 in 0ms
+2024-03-23 00:54:14.547 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:14.547 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.547 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:72 request for processing
+2024-03-23 00:54:14.547 +01:00 [DBG] Starting: Processing request completionItem/resolve 72
+2024-03-23 00:54:14.547 +01:00 [DBG] Starting: Routing Request (72) completionItem/resolve
+2024-03-23 00:54:14.547 +01:00 [VRB] Converting params for Request (72) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.547 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.548 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.548 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.548 +01:00 [DBG] Finished: Routing Request (72) completionItem/resolve in 0ms
+2024-03-23 00:54:14.548 +01:00 [DBG] Finished: Processing request completionItem/resolve 72 in 0ms
+2024-03-23 00:54:14.577 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:14.577 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.577 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:73 request for processing
+2024-03-23 00:54:14.577 +01:00 [DBG] Starting: Processing request completionItem/resolve 73
+2024-03-23 00:54:14.577 +01:00 [DBG] Starting: Routing Request (73) completionItem/resolve
+2024-03-23 00:54:14.578 +01:00 [VRB] Converting params for Request (73) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.578 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.578 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.578 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.578 +01:00 [DBG] Finished: Routing Request (73) completionItem/resolve in 0ms
+2024-03-23 00:54:14.578 +01:00 [DBG] Finished: Processing request completionItem/resolve 73 in 0ms
+2024-03-23 00:54:14.608 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:14.608 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.608 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:74 request for processing
+2024-03-23 00:54:14.608 +01:00 [DBG] Starting: Processing request completionItem/resolve 74
+2024-03-23 00:54:14.608 +01:00 [DBG] Starting: Routing Request (74) completionItem/resolve
+2024-03-23 00:54:14.608 +01:00 [VRB] Converting params for Request (74) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.608 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.608 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.609 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.609 +01:00 [DBG] Finished: Routing Request (74) completionItem/resolve in 0ms
+2024-03-23 00:54:14.609 +01:00 [DBG] Finished: Processing request completionItem/resolve 74 in 0ms
+2024-03-23 00:54:14.638 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:14.638 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.638 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:75 request for processing
+2024-03-23 00:54:14.638 +01:00 [DBG] Starting: Processing request completionItem/resolve 75
+2024-03-23 00:54:14.638 +01:00 [DBG] Starting: Routing Request (75) completionItem/resolve
+2024-03-23 00:54:14.638 +01:00 [VRB] Converting params for Request (75) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.638 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.639 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.639 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.639 +01:00 [DBG] Finished: Routing Request (75) completionItem/resolve in 0ms
+2024-03-23 00:54:14.639 +01:00 [DBG] Finished: Processing request completionItem/resolve 75 in 0ms
+2024-03-23 00:54:14.669 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:14.669 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.669 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:76 request for processing
+2024-03-23 00:54:14.669 +01:00 [DBG] Starting: Processing request completionItem/resolve 76
+2024-03-23 00:54:14.669 +01:00 [DBG] Starting: Routing Request (76) completionItem/resolve
+2024-03-23 00:54:14.669 +01:00 [VRB] Converting params for Request (76) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.669 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.669 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.669 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.669 +01:00 [DBG] Finished: Routing Request (76) completionItem/resolve in 0ms
+2024-03-23 00:54:14.669 +01:00 [DBG] Finished: Processing request completionItem/resolve 76 in 0ms
+2024-03-23 00:54:14.716 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:14.716 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.716 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:77 request for processing
+2024-03-23 00:54:14.716 +01:00 [DBG] Starting: Processing request completionItem/resolve 77
+2024-03-23 00:54:14.716 +01:00 [DBG] Starting: Routing Request (77) completionItem/resolve
+2024-03-23 00:54:14.716 +01:00 [VRB] Converting params for Request (77) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.716 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.716 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.716 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.716 +01:00 [DBG] Finished: Routing Request (77) completionItem/resolve in 0ms
+2024-03-23 00:54:14.716 +01:00 [DBG] Finished: Processing request completionItem/resolve 77 in 0ms
+2024-03-23 00:54:14.746 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:14.746 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.746 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:78 request for processing
+2024-03-23 00:54:14.746 +01:00 [DBG] Starting: Processing request completionItem/resolve 78
+2024-03-23 00:54:14.746 +01:00 [DBG] Starting: Routing Request (78) completionItem/resolve
+2024-03-23 00:54:14.746 +01:00 [VRB] Converting params for Request (78) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.747 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.747 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.747 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.747 +01:00 [DBG] Finished: Routing Request (78) completionItem/resolve in 0ms
+2024-03-23 00:54:14.747 +01:00 [DBG] Finished: Processing request completionItem/resolve 78 in 0ms
+2024-03-23 00:54:14.778 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:14.778 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.778 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:79 request for processing
+2024-03-23 00:54:14.778 +01:00 [DBG] Starting: Processing request completionItem/resolve 79
+2024-03-23 00:54:14.778 +01:00 [DBG] Starting: Routing Request (79) completionItem/resolve
+2024-03-23 00:54:14.778 +01:00 [VRB] Converting params for Request (79) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.778 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.778 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.778 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.778 +01:00 [DBG] Finished: Routing Request (79) completionItem/resolve in 0ms
+2024-03-23 00:54:14.778 +01:00 [DBG] Finished: Processing request completionItem/resolve 79 in 0ms
+2024-03-23 00:54:14.809 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:14.809 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.809 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:80 request for processing
+2024-03-23 00:54:14.809 +01:00 [DBG] Starting: Processing request completionItem/resolve 80
+2024-03-23 00:54:14.809 +01:00 [DBG] Starting: Routing Request (80) completionItem/resolve
+2024-03-23 00:54:14.809 +01:00 [VRB] Converting params for Request (80) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.809 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.810 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.810 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.810 +01:00 [DBG] Finished: Routing Request (80) completionItem/resolve in 0ms
+2024-03-23 00:54:14.810 +01:00 [DBG] Finished: Processing request completionItem/resolve 80 in 0ms
+2024-03-23 00:54:14.841 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:14.841 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.841 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:81 request for processing
+2024-03-23 00:54:14.841 +01:00 [DBG] Starting: Processing request completionItem/resolve 81
+2024-03-23 00:54:14.841 +01:00 [DBG] Starting: Routing Request (81) completionItem/resolve
+2024-03-23 00:54:14.841 +01:00 [VRB] Converting params for Request (81) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.841 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.841 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.841 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.841 +01:00 [DBG] Finished: Routing Request (81) completionItem/resolve in 0ms
+2024-03-23 00:54:14.841 +01:00 [DBG] Finished: Processing request completionItem/resolve 81 in 0ms
+2024-03-23 00:54:14.872 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:14.872 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.872 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:82 request for processing
+2024-03-23 00:54:14.872 +01:00 [DBG] Starting: Processing request completionItem/resolve 82
+2024-03-23 00:54:14.872 +01:00 [DBG] Starting: Routing Request (82) completionItem/resolve
+2024-03-23 00:54:14.872 +01:00 [VRB] Converting params for Request (82) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.872 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.873 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.873 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.873 +01:00 [DBG] Finished: Routing Request (82) completionItem/resolve in 0ms
+2024-03-23 00:54:14.873 +01:00 [DBG] Finished: Processing request completionItem/resolve 82 in 0ms
+2024-03-23 00:54:14.903 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:14.903 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.903 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:83 request for processing
+2024-03-23 00:54:14.903 +01:00 [DBG] Starting: Processing request completionItem/resolve 83
+2024-03-23 00:54:14.903 +01:00 [DBG] Starting: Routing Request (83) completionItem/resolve
+2024-03-23 00:54:14.903 +01:00 [VRB] Converting params for Request (83) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.903 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.903 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.903 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.903 +01:00 [DBG] Finished: Routing Request (83) completionItem/resolve in 0ms
+2024-03-23 00:54:14.904 +01:00 [DBG] Finished: Processing request completionItem/resolve 83 in 0ms
+2024-03-23 00:54:14.935 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:14.935 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.935 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:84 request for processing
+2024-03-23 00:54:14.935 +01:00 [DBG] Starting: Processing request completionItem/resolve 84
+2024-03-23 00:54:14.935 +01:00 [DBG] Starting: Routing Request (84) completionItem/resolve
+2024-03-23 00:54:14.935 +01:00 [VRB] Converting params for Request (84) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.935 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.935 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.935 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.935 +01:00 [DBG] Finished: Routing Request (84) completionItem/resolve in 0ms
+2024-03-23 00:54:14.935 +01:00 [DBG] Finished: Processing request completionItem/resolve 84 in 0ms
+2024-03-23 00:54:14.965 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:14.965 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.965 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:85 request for processing
+2024-03-23 00:54:14.965 +01:00 [DBG] Starting: Processing request completionItem/resolve 85
+2024-03-23 00:54:14.965 +01:00 [DBG] Starting: Routing Request (85) completionItem/resolve
+2024-03-23 00:54:14.965 +01:00 [VRB] Converting params for Request (85) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.965 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.966 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:14.966 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:14.966 +01:00 [DBG] Finished: Routing Request (85) completionItem/resolve in 0ms
+2024-03-23 00:54:14.966 +01:00 [DBG] Finished: Processing request completionItem/resolve 85 in 0ms
+2024-03-23 00:54:15.011 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:15.011 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:15.011 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:86 request for processing
+2024-03-23 00:54:15.011 +01:00 [DBG] Starting: Processing request completionItem/resolve 86
+2024-03-23 00:54:15.011 +01:00 [DBG] Starting: Routing Request (86) completionItem/resolve
+2024-03-23 00:54:15.011 +01:00 [VRB] Converting params for Request (86) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:15.011 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:15.011 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:15.011 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:15.011 +01:00 [DBG] Finished: Routing Request (86) completionItem/resolve in 0ms
+2024-03-23 00:54:15.011 +01:00 [DBG] Finished: Processing request completionItem/resolve 86 in 0ms
+2024-03-23 00:54:15.042 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:15.043 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:15.043 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:87 request for processing
+2024-03-23 00:54:15.043 +01:00 [DBG] Starting: Processing request completionItem/resolve 87
+2024-03-23 00:54:15.043 +01:00 [DBG] Starting: Routing Request (87) completionItem/resolve
+2024-03-23 00:54:15.043 +01:00 [VRB] Converting params for Request (87) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:15.043 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:15.043 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:15.043 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:15.043 +01:00 [DBG] Finished: Routing Request (87) completionItem/resolve in 0ms
+2024-03-23 00:54:15.043 +01:00 [DBG] Finished: Processing request completionItem/resolve 87 in 0ms
+2024-03-23 00:54:15.075 +01:00 [DBG] Finding descriptors for completionItem/resolve
+2024-03-23 00:54:15.075 +01:00 [VRB] Checking handler completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:15.075 +01:00 [DBG] Queueing "Parallel":completionItem/resolve:88 request for processing
+2024-03-23 00:54:15.075 +01:00 [DBG] Starting: Processing request completionItem/resolve 88
+2024-03-23 00:54:15.075 +01:00 [DBG] Starting: Routing Request (88) completionItem/resolve
+2024-03-23 00:54:15.075 +01:00 [VRB] Converting params for Request (88) completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:15.075 +01:00 [VRB] Converting params for Notification completionItem/resolve to OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:15.075 +01:00 [VRB] Updating Resolve items with wrapped data for completionItem/resolve:ShaderLS.Handlers.CompletionHandler
+2024-03-23 00:54:15.075 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.CompletionItem
+2024-03-23 00:54:15.075 +01:00 [DBG] Finished: Routing Request (88) completionItem/resolve in 0ms
+2024-03-23 00:54:15.075 +01:00 [DBG] Finished: Processing request completionItem/resolve 88 in 0ms
+2024-03-23 00:54:18.285 +01:00 [DBG] Finding descriptors for textDocument/didChange
+2024-03-23 00:54:18.285 +01:00 [VRB] Found attributes 1, ["shaderlab:file:file:///e:/Progress/Gamedev/Catlike%20Coding/Basics/Graph/Assets/Shaders/Point%20Surface.shader"]
+2024-03-23 00:54:18.285 +01:00 [VRB] Looking for handler for descriptors textDocument/didChange
+2024-03-23 00:54:18.285 +01:00 [VRB] Checking handler textDocument/didChange:ShaderLS.Handlers.TextDocumentSyncHandler
+2024-03-23 00:54:18.285 +01:00 [VRB] Registration options OmniSharp.Extensions.LanguageServer.Protocol.Models.TextDocumentChangeRegistrationOptions
+2024-03-23 00:54:18.285 +01:00 [VRB] Document Selector [**/*.shader], [**/*.cginc], [**/*.glslinc], [**/*.compute], [**/*.cg], [**/*.hlsl]
+2024-03-23 00:54:18.286 +01:00 [VRB] Handler Selected: ShaderLS.Handlers.TextDocumentSyncHandler  via [**/*.shader], [**/*.cginc], [**/*.glslinc], [**/*.compute], [**/*.cg], [**/*.hlsl] (targeting OmniSharp.Extensions.JsonRpc.IJsonRpcNotificationHandler`1[[OmniSharp.Extensions.LanguageServer.Protocol.Models.DidChangeTextDocumentParams, OmniSharp.Extensions.LanguageProtocol, Version=0.19.0.0, Culture=neutral, PublicKeyToken=6d868dff454e6022]])
+2024-03-23 00:54:18.286 +01:00 [DBG] Swapping from "Parallel" to "Serial"
+2024-03-23 00:54:18.286 +01:00 [DBG] Cancelling any outstanding requests (switch from parallel to serial)
+2024-03-23 00:54:18.286 +01:00 [DBG] Completing existing request process type "Parallel"
+2024-03-23 00:54:18.286 +01:00 [DBG] Queueing "Serial":textDocument/didChange request for processing
+2024-03-23 00:54:18.286 +01:00 [DBG] Starting: Processing notification textDocument/didChange
+2024-03-23 00:54:18.286 +01:00 [DBG] Starting: Routing Notification textDocument/didChange
+2024-03-23 00:54:18.286 +01:00 [VRB] Converting params for Notification textDocument/didChange to OmniSharp.Extensions.LanguageServer.Protocol.Models.DidChangeTextDocumentParams
+2024-03-23 00:54:18.289 +01:00 [DBG] Finished: Routing Notification textDocument/didChange in 2ms
+2024-03-23 00:54:18.289 +01:00 [DBG] Finished: Processing notification textDocument/didChange in 2ms
+2024-03-23 00:54:19.723 +01:00 [DBG] Finding descriptors for textDocument/hover
+2024-03-23 00:54:19.723 +01:00 [VRB] Found attributes 1, ["shaderlab:file:file:///e:/Progress/Gamedev/Catlike%20Coding/Basics/Graph/Assets/Shaders/Point%20Surface.shader"]
+2024-03-23 00:54:19.723 +01:00 [VRB] Looking for handler for descriptors textDocument/hover
+2024-03-23 00:54:19.723 +01:00 [VRB] Checking handler textDocument/hover:ShaderLS.Handlers.HoverHandler
+2024-03-23 00:54:19.723 +01:00 [VRB] Registration options OmniSharp.Extensions.LanguageServer.Protocol.Models.HoverRegistrationOptions
+2024-03-23 00:54:19.723 +01:00 [VRB] Document Selector [**/*.shader], [**/*.cginc], [**/*.glslinc], [**/*.compute], [**/*.cg], [**/*.hlsl]
+2024-03-23 00:54:19.723 +01:00 [VRB] Handler Selected: ShaderLS.Handlers.HoverHandler  via [**/*.shader], [**/*.cginc], [**/*.glslinc], [**/*.compute], [**/*.cg], [**/*.hlsl] (targeting OmniSharp.Extensions.JsonRpc.IJsonRpcRequestHandler`2[[OmniSharp.Extensions.LanguageServer.Protocol.Models.HoverParams, OmniSharp.Extensions.LanguageProtocol, Version=0.19.0.0, Culture=neutral, PublicKeyToken=6d868dff454e6022],[OmniSharp.Extensions.LanguageServer.Protocol.Models.Hover, OmniSharp.Extensions.LanguageProtocol, Version=0.19.0.0, Culture=neutral, PublicKeyToken=6d868dff454e6022]])
+2024-03-23 00:54:19.723 +01:00 [DBG] Swapping from "Serial" to "Parallel"
+2024-03-23 00:54:19.723 +01:00 [DBG] Completing existing request process type "Serial"
+2024-03-23 00:54:19.723 +01:00 [DBG] Queueing "Parallel":textDocument/hover:89 request for processing
+2024-03-23 00:54:19.723 +01:00 [DBG] Starting: Processing request textDocument/hover 89
+2024-03-23 00:54:19.723 +01:00 [DBG] Starting: Routing Request (89) textDocument/hover
+2024-03-23 00:54:19.723 +01:00 [VRB] Converting params for Request (89) textDocument/hover to OmniSharp.Extensions.LanguageServer.Protocol.Models.HoverParams
+2024-03-23 00:54:19.723 +01:00 [VRB] Converting params for Notification textDocument/hover to OmniSharp.Extensions.LanguageServer.Protocol.Models.HoverParams
+2024-03-23 00:54:19.724 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.Hover
+2024-03-23 00:54:19.724 +01:00 [DBG] Finished: Routing Request (89) textDocument/hover in 0ms
+2024-03-23 00:54:19.724 +01:00 [DBG] Finished: Processing request textDocument/hover 89 in 0ms
+2024-03-23 00:54:22.473 +01:00 [DBG] Finding descriptors for textDocument/didChange
+2024-03-23 00:54:22.473 +01:00 [VRB] Found attributes 1, ["shaderlab:file:file:///e:/Progress/Gamedev/Catlike%20Coding/Basics/Graph/Assets/Shaders/Point%20Surface.shader"]
+2024-03-23 00:54:22.473 +01:00 [VRB] Looking for handler for descriptors textDocument/didChange
+2024-03-23 00:54:22.473 +01:00 [VRB] Checking handler textDocument/didChange:ShaderLS.Handlers.TextDocumentSyncHandler
+2024-03-23 00:54:22.473 +01:00 [VRB] Registration options OmniSharp.Extensions.LanguageServer.Protocol.Models.TextDocumentChangeRegistrationOptions
+2024-03-23 00:54:22.473 +01:00 [VRB] Document Selector [**/*.shader], [**/*.cginc], [**/*.glslinc], [**/*.compute], [**/*.cg], [**/*.hlsl]
+2024-03-23 00:54:22.473 +01:00 [VRB] Handler Selected: ShaderLS.Handlers.TextDocumentSyncHandler  via [**/*.shader], [**/*.cginc], [**/*.glslinc], [**/*.compute], [**/*.cg], [**/*.hlsl] (targeting OmniSharp.Extensions.JsonRpc.IJsonRpcNotificationHandler`1[[OmniSharp.Extensions.LanguageServer.Protocol.Models.DidChangeTextDocumentParams, OmniSharp.Extensions.LanguageProtocol, Version=0.19.0.0, Culture=neutral, PublicKeyToken=6d868dff454e6022]])
+2024-03-23 00:54:22.473 +01:00 [DBG] Swapping from "Parallel" to "Serial"
+2024-03-23 00:54:22.473 +01:00 [DBG] Cancelling any outstanding requests (switch from parallel to serial)
+2024-03-23 00:54:22.473 +01:00 [DBG] Completing existing request process type "Parallel"
+2024-03-23 00:54:22.473 +01:00 [DBG] Queueing "Serial":textDocument/didChange request for processing
+2024-03-23 00:54:22.473 +01:00 [DBG] Starting: Processing notification textDocument/didChange
+2024-03-23 00:54:22.473 +01:00 [DBG] Starting: Routing Notification textDocument/didChange
+2024-03-23 00:54:22.473 +01:00 [VRB] Converting params for Notification textDocument/didChange to OmniSharp.Extensions.LanguageServer.Protocol.Models.DidChangeTextDocumentParams
+2024-03-23 00:54:22.475 +01:00 [DBG] Finished: Routing Notification textDocument/didChange in 1ms
+2024-03-23 00:54:22.475 +01:00 [DBG] Finished: Processing notification textDocument/didChange in 1ms
+2024-03-23 00:54:23.006 +01:00 [DBG] Finding descriptors for textDocument/didChange
+2024-03-23 00:54:23.006 +01:00 [VRB] Found attributes 1, ["shaderlab:file:file:///e:/Progress/Gamedev/Catlike%20Coding/Basics/Graph/Assets/Shaders/Point%20Surface.shader"]
+2024-03-23 00:54:23.006 +01:00 [VRB] Looking for handler for descriptors textDocument/didChange
+2024-03-23 00:54:23.006 +01:00 [VRB] Checking handler textDocument/didChange:ShaderLS.Handlers.TextDocumentSyncHandler
+2024-03-23 00:54:23.006 +01:00 [VRB] Registration options OmniSharp.Extensions.LanguageServer.Protocol.Models.TextDocumentChangeRegistrationOptions
+2024-03-23 00:54:23.006 +01:00 [VRB] Document Selector [**/*.shader], [**/*.cginc], [**/*.glslinc], [**/*.compute], [**/*.cg], [**/*.hlsl]
+2024-03-23 00:54:23.007 +01:00 [VRB] Handler Selected: ShaderLS.Handlers.TextDocumentSyncHandler  via [**/*.shader], [**/*.cginc], [**/*.glslinc], [**/*.compute], [**/*.cg], [**/*.hlsl] (targeting OmniSharp.Extensions.JsonRpc.IJsonRpcNotificationHandler`1[[OmniSharp.Extensions.LanguageServer.Protocol.Models.DidChangeTextDocumentParams, OmniSharp.Extensions.LanguageProtocol, Version=0.19.0.0, Culture=neutral, PublicKeyToken=6d868dff454e6022]])
+2024-03-23 00:54:23.007 +01:00 [DBG] Queueing "Serial":textDocument/didChange request for processing
+2024-03-23 00:54:23.007 +01:00 [DBG] Starting: Processing notification textDocument/didChange
+2024-03-23 00:54:23.007 +01:00 [DBG] Starting: Routing Notification textDocument/didChange
+2024-03-23 00:54:23.007 +01:00 [VRB] Converting params for Notification textDocument/didChange to OmniSharp.Extensions.LanguageServer.Protocol.Models.DidChangeTextDocumentParams
+2024-03-23 00:54:23.008 +01:00 [DBG] Finished: Routing Notification textDocument/didChange in 1ms
+2024-03-23 00:54:23.008 +01:00 [DBG] Finished: Processing notification textDocument/didChange in 1ms
+2024-03-23 00:54:24.228 +01:00 [DBG] Finding descriptors for textDocument/hover
+2024-03-23 00:54:24.229 +01:00 [VRB] Found attributes 1, ["shaderlab:file:file:///e:/Progress/Gamedev/Catlike%20Coding/Basics/Graph/Assets/Shaders/Point%20Surface.shader"]
+2024-03-23 00:54:24.229 +01:00 [VRB] Looking for handler for descriptors textDocument/hover
+2024-03-23 00:54:24.229 +01:00 [VRB] Checking handler textDocument/hover:ShaderLS.Handlers.HoverHandler
+2024-03-23 00:54:24.229 +01:00 [VRB] Registration options OmniSharp.Extensions.LanguageServer.Protocol.Models.HoverRegistrationOptions
+2024-03-23 00:54:24.229 +01:00 [VRB] Document Selector [**/*.shader], [**/*.cginc], [**/*.glslinc], [**/*.compute], [**/*.cg], [**/*.hlsl]
+2024-03-23 00:54:24.229 +01:00 [VRB] Handler Selected: ShaderLS.Handlers.HoverHandler  via [**/*.shader], [**/*.cginc], [**/*.glslinc], [**/*.compute], [**/*.cg], [**/*.hlsl] (targeting OmniSharp.Extensions.JsonRpc.IJsonRpcRequestHandler`2[[OmniSharp.Extensions.LanguageServer.Protocol.Models.HoverParams, OmniSharp.Extensions.LanguageProtocol, Version=0.19.0.0, Culture=neutral, PublicKeyToken=6d868dff454e6022],[OmniSharp.Extensions.LanguageServer.Protocol.Models.Hover, OmniSharp.Extensions.LanguageProtocol, Version=0.19.0.0, Culture=neutral, PublicKeyToken=6d868dff454e6022]])
+2024-03-23 00:54:24.229 +01:00 [DBG] Swapping from "Serial" to "Parallel"
+2024-03-23 00:54:24.229 +01:00 [DBG] Completing existing request process type "Serial"
+2024-03-23 00:54:24.229 +01:00 [DBG] Queueing "Parallel":textDocument/hover:90 request for processing
+2024-03-23 00:54:24.229 +01:00 [DBG] Starting: Processing request textDocument/hover 90
+2024-03-23 00:54:24.229 +01:00 [DBG] Starting: Routing Request (90) textDocument/hover
+2024-03-23 00:54:24.229 +01:00 [VRB] Converting params for Request (90) textDocument/hover to OmniSharp.Extensions.LanguageServer.Protocol.Models.HoverParams
+2024-03-23 00:54:24.229 +01:00 [VRB] Converting params for Notification textDocument/hover to OmniSharp.Extensions.LanguageServer.Protocol.Models.HoverParams
+2024-03-23 00:54:24.229 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.Hover
+2024-03-23 00:54:24.229 +01:00 [DBG] Finished: Routing Request (90) textDocument/hover in 0ms
+2024-03-23 00:54:24.229 +01:00 [DBG] Finished: Processing request textDocument/hover 90 in 0ms
+2024-03-23 00:54:26.587 +01:00 [DBG] Finding descriptors for textDocument/hover
+2024-03-23 00:54:26.587 +01:00 [VRB] Found attributes 1, ["shaderlab:file:file:///e:/Progress/Gamedev/Catlike%20Coding/Basics/Graph/Assets/Shaders/Point%20Surface.shader"]
+2024-03-23 00:54:26.587 +01:00 [VRB] Looking for handler for descriptors textDocument/hover
+2024-03-23 00:54:26.587 +01:00 [VRB] Checking handler textDocument/hover:ShaderLS.Handlers.HoverHandler
+2024-03-23 00:54:26.587 +01:00 [VRB] Registration options OmniSharp.Extensions.LanguageServer.Protocol.Models.HoverRegistrationOptions
+2024-03-23 00:54:26.587 +01:00 [VRB] Document Selector [**/*.shader], [**/*.cginc], [**/*.glslinc], [**/*.compute], [**/*.cg], [**/*.hlsl]
+2024-03-23 00:54:26.588 +01:00 [VRB] Handler Selected: ShaderLS.Handlers.HoverHandler  via [**/*.shader], [**/*.cginc], [**/*.glslinc], [**/*.compute], [**/*.cg], [**/*.hlsl] (targeting OmniSharp.Extensions.JsonRpc.IJsonRpcRequestHandler`2[[OmniSharp.Extensions.LanguageServer.Protocol.Models.HoverParams, OmniSharp.Extensions.LanguageProtocol, Version=0.19.0.0, Culture=neutral, PublicKeyToken=6d868dff454e6022],[OmniSharp.Extensions.LanguageServer.Protocol.Models.Hover, OmniSharp.Extensions.LanguageProtocol, Version=0.19.0.0, Culture=neutral, PublicKeyToken=6d868dff454e6022]])
+2024-03-23 00:54:26.588 +01:00 [DBG] Queueing "Parallel":textDocument/hover:91 request for processing
+2024-03-23 00:54:26.588 +01:00 [DBG] Starting: Processing request textDocument/hover 91
+2024-03-23 00:54:26.588 +01:00 [DBG] Starting: Routing Request (91) textDocument/hover
+2024-03-23 00:54:26.588 +01:00 [VRB] Converting params for Request (91) textDocument/hover to OmniSharp.Extensions.LanguageServer.Protocol.Models.HoverParams
+2024-03-23 00:54:26.588 +01:00 [VRB] Converting params for Notification textDocument/hover to OmniSharp.Extensions.LanguageServer.Protocol.Models.HoverParams
+2024-03-23 00:54:26.588 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.Hover
+2024-03-23 00:54:26.588 +01:00 [DBG] Finished: Routing Request (91) textDocument/hover in 0ms
+2024-03-23 00:54:26.588 +01:00 [DBG] Finished: Processing request textDocument/hover 91 in 0ms
+2024-03-23 00:54:28.176 +01:00 [DBG] Finding descriptors for textDocument/hover
+2024-03-23 00:54:28.176 +01:00 [VRB] Found attributes 1, ["shaderlab:file:file:///e:/Progress/Gamedev/Catlike%20Coding/Basics/Graph/Assets/Shaders/Point%20Surface.shader"]
+2024-03-23 00:54:28.176 +01:00 [VRB] Looking for handler for descriptors textDocument/hover
+2024-03-23 00:54:28.176 +01:00 [VRB] Checking handler textDocument/hover:ShaderLS.Handlers.HoverHandler
+2024-03-23 00:54:28.176 +01:00 [VRB] Registration options OmniSharp.Extensions.LanguageServer.Protocol.Models.HoverRegistrationOptions
+2024-03-23 00:54:28.176 +01:00 [VRB] Document Selector [**/*.shader], [**/*.cginc], [**/*.glslinc], [**/*.compute], [**/*.cg], [**/*.hlsl]
+2024-03-23 00:54:28.177 +01:00 [VRB] Handler Selected: ShaderLS.Handlers.HoverHandler  via [**/*.shader], [**/*.cginc], [**/*.glslinc], [**/*.compute], [**/*.cg], [**/*.hlsl] (targeting OmniSharp.Extensions.JsonRpc.IJsonRpcRequestHandler`2[[OmniSharp.Extensions.LanguageServer.Protocol.Models.HoverParams, OmniSharp.Extensions.LanguageProtocol, Version=0.19.0.0, Culture=neutral, PublicKeyToken=6d868dff454e6022],[OmniSharp.Extensions.LanguageServer.Protocol.Models.Hover, OmniSharp.Extensions.LanguageProtocol, Version=0.19.0.0, Culture=neutral, PublicKeyToken=6d868dff454e6022]])
+2024-03-23 00:54:28.177 +01:00 [DBG] Queueing "Parallel":textDocument/hover:92 request for processing
+2024-03-23 00:54:28.177 +01:00 [DBG] Starting: Processing request textDocument/hover 92
+2024-03-23 00:54:28.177 +01:00 [DBG] Starting: Routing Request (92) textDocument/hover
+2024-03-23 00:54:28.177 +01:00 [VRB] Converting params for Request (92) textDocument/hover to OmniSharp.Extensions.LanguageServer.Protocol.Models.HoverParams
+2024-03-23 00:54:28.177 +01:00 [VRB] Converting params for Notification textDocument/hover to OmniSharp.Extensions.LanguageServer.Protocol.Models.HoverParams
+2024-03-23 00:54:28.177 +01:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.Hover
+2024-03-23 00:54:28.177 +01:00 [DBG] Finished: Routing Request (92) textDocument/hover in 0ms
+2024-03-23 00:54:28.177 +01:00 [DBG] Finished: Processing request textDocument/hover 92 in 0ms
+2024-03-23 00:54:33.960 +01:00 [DBG] Finding descriptors for shutdown
+2024-03-23 00:54:33.960 +01:00 [DBG] Swapping from "Parallel" to "Serial"
+2024-03-23 00:54:33.960 +01:00 [DBG] Cancelling any outstanding requests (switch from parallel to serial)
+2024-03-23 00:54:33.960 +01:00 [DBG] Completing existing request process type "Parallel"
+2024-03-23 00:54:33.960 +01:00 [DBG] Queueing "Serial":shutdown:93 request for processing
+2024-03-23 00:54:33.960 +01:00 [DBG] Starting: Processing request shutdown 93
+2024-03-23 00:54:33.960 +01:00 [DBG] Starting: Routing Request (93) shutdown
+2024-03-23 00:54:33.960 +01:00 [VRB] Converting params for Request (93) shutdown to OmniSharp.Extensions.LanguageServer.Protocol.Models.ShutdownParams
+2024-03-23 00:54:33.960 +01:00 [VRB] Converting params for Notification shutdown to OmniSharp.Extensions.LanguageServer.Protocol.Models.ShutdownParams
+2024-03-23 00:54:33.964 +01:00 [VRB] Response value was null
+2024-03-23 00:54:33.964 +01:00 [DBG] Finished: Routing Request (93) shutdown in 3ms
+2024-03-23 00:54:33.964 +01:00 [DBG] Finished: Processing request shutdown 93 in 3ms
+2024-03-23 00:54:33.965 +01:00 [DBG] Finding descriptors for exit
+2024-03-23 00:54:33.965 +01:00 [DBG] Queueing "Serial":exit request for processing
+2024-03-23 00:54:33.965 +01:00 [DBG] Starting: Processing notification exit
+2024-03-23 00:54:33.965 +01:00 [DBG] Starting: Routing Notification exit
+2024-03-23 00:54:33.965 +01:00 [VRB] Converting params for Notification exit to OmniSharp.Extensions.LanguageServer.Protocol.Models.ExitParams
